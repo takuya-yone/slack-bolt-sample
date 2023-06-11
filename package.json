@@ -1,0 +1,23 @@
+{
+  "name": "slack-bolt-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && npm run serve",
+    "build": "npx tsc",
+    "serve": "node dist/index.js",
+    "format": "prettier --write './**/*.ts'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/bolt": "^3.13.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.0",
+    "prettier": "^2.8.8",
+    "typescript": "^5.1.3"
+  }
+}
